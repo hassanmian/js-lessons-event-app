@@ -2,14 +2,13 @@
 // import React from 'react';
 // import { useRef, useState } from 'react';
 import React from 'react';
-import LoginForm from './components/LoginForm';
+import LoginPage from './pages/LoginPage';
 
 function App() {
 
   return (
     <div>
-      <h1>Event App</h1>
-      <LoginForm />
+      <LoginPage />
     </div>
   );
 }
