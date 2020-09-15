@@ -10,10 +10,9 @@ import { UserContext } from './contexts/UserContext';
 import EventDetailPage from './pages/EventDetailPage';
 
 function App() {
-  const [token, setToken] = useState(null)
   return (
     <div>
-      <UserContext.Provider value={{token, setToken}}>
+      <UserContext.Provider>
         <Switch>
           
           <Route path="/event/:slug" component={EventDetailPage} />
